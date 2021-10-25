@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace GrupoPrueba.Models
+namespace GrupoPrueba2.Models
 {
     [Table("t_product")]
     public class Catalogo

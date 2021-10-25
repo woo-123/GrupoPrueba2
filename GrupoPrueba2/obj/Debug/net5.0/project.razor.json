@@ -15644,8 +15644,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Placa.cshtml",
+      "TargetPath": "Views\\Catalogo\\Placa.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Disco.cshtml",
+      "TargetPath": "Views\\Catalogo\\Disco.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Tarjeta.cshtml",
+      "TargetPath": "Views\\Catalogo\\Tarjeta.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Pc.cshtml",
+      "TargetPath": "Views\\Catalogo\\Pc.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Fuente.cshtml",
+      "TargetPath": "Views\\Catalogo\\Fuente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Index.cshtml",
+      "TargetPath": "Views\\Catalogo\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,8 +15684,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Case.cshtml",
+      "TargetPath": "Views\\Catalogo\\Case.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Memoria.cshtml",
+      "TargetPath": "Views\\Catalogo\\Memoria.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\diego\\Desktop\\Programacion1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\SSD.cshtml",
+      "TargetPath": "Views\\Catalogo\\SSD.cshtml",
       "FileKind": "mvc"
     },
     {

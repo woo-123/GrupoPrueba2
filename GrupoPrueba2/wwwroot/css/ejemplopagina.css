@@ -1,0 +1,24 @@
+
+.categoria {
+    position:absolute;
+    left:20%;
+    z-index:10;
+    display:none;
+
+
+}
+.categoria ul{
+    text-align:right;
+   
+}
+.categoria li{
+    list-style-type: none;
+}
+.categoria li a {
+    text-decoration:none;
+}
+.categoria.active{
+    overflow:scroll;
+    display:block;
+    height:400px;
+}
