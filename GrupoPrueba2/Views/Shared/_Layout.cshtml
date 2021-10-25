@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GrupoPrueba2</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GrupoPrueba</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -19,17 +19,32 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark cat">Catalogo</a>
                         </li>
+                        
+                        
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
     </header>
+    <div class='categoria'>
+            <ul class='cat-ul'>
+                <li class = "cat-li"><a  asp-controller="Catalogo" asp-action="Index">Procesadores</a></li>
+                <li class = "cat-li"><a asp-controller="Catalogo" asp-action="Tarjeta">Tarjetas Graficas</a></li>
+                <li class = "cat-li"><a asp-controller="Catalogo" asp-action="Memoria">Memoria ram</a></li>
+                <li class = "cat-li"><a asp-controller="Catalogo" asp-action="Fuente">Fuente</a></li>
+                <li class = "cat-li"><a asp-controller="Catalogo" asp-action="Disco">Disco Duro</a></li>
+                <li class = "cat-li"><a asp-controller="Catalogo" asp-action="SSD">.SSD</a></li>
+                <li class = "cat-li"><a asp-controller="Catalogo" asp-action="Case">Case</a></li>
+                <li class = "cat-li"><a asp-controller="Catalogo" asp-action="Placa">Placa Madre</a></li>
+
+            </ul>
+        </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
