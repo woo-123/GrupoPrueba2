@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace frutosecoapp.Models
+namespace GrupoPrueba2.Models
 {
 
     [Table("t_contacto")]

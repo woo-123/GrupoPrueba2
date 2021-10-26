@@ -4,7 +4,8 @@ using GrupoPrueba2.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
 
 
 namespace GrupoPrueba2.Controllers
@@ -76,7 +77,7 @@ namespace GrupoPrueba2.Controllers
 
          public async Task<IActionResult> Details(int id)
         {
-            Product objProduct = await _context.DataProducts.FindAsync(id);
+            Catalogo objProduct = await _context.DataProducts.FindAsync(id);
             if(objProduct == null){
                 return NotFound();
             }
@@ -87,13 +88,13 @@ namespace GrupoPrueba2.Controllers
             var userID = _userManager.GetUserName(User);
             if(userID == null){
                 ViewData["Message"] = "Por favor debe loguearse antes de agregar un producto";
-                List<Product> productos = new List<Product>();
+                List<Catalogo> productos = new List<Catalogo>();
                 return View("Index",productos);
             }else{
                 var producto = await _context.DataProducts.FindAsync(id);
                 Proforma proforma = new Proforma();
                 proforma.Producto = producto;
-                proforma.Price = producto.price;
+                proforma.Price = producto.Price;
                 proforma.Quantity = 1;
                 proforma.UserID = userID;
                 _context.Add(proforma);

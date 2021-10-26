@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace frutosecoapp.Models
+namespace GrupoPrueba2.Models
 {
     //CARRITO
     [Table ("t_proforma")]
@@ -19,7 +19,7 @@ namespace frutosecoapp.Models
 
         public string UserID { get; set; }
 
-        public Product Producto { get; set; }
+        public Catalogo Producto { get; set; }
 
         public int Quantity { get; set; }
 
