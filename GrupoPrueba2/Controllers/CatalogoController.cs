@@ -13,9 +13,10 @@ namespace GrupoPrueba2.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
-        public CatalogoController(ApplicationDbContext context)
+        public CatalogoController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
             _userManager = userManager;
         }
 
