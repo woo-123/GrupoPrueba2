@@ -13,5 +13,7 @@ namespace GrupoPrueba2.Data
         {
         }
         public DbSet<GrupoPrueba2.Models.Catalogo> DataProducts { get; set; }
+        public DbSet<GrupoPrueba2.Models.Contact> DataContactos { get; set; }
+        public DbSet<GrupoPrueba2.Models.Proforma> DataProforma { get; set; }
     }
 }
