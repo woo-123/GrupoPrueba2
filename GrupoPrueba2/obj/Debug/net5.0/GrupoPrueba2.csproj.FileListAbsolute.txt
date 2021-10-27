@@ -513,3 +513,5 @@ C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.R
 C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.Views.pdb
 C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.csproj.CopyComplete
 C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.genruntimeconfig.cache
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Proforma\Edit.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Proforma\Index.cshtml.g.cs
