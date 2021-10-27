@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego\\Desktop\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj": {}
+    "F:\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego\\Desktop\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj": {
+    "F:\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj",
+        "projectUniqueName": "F:\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj",
         "projectName": "GrupoPrueba2",
-        "projectPath": "C:\\Users\\diego\\Desktop\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj",
-        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\GrupoPrueba2\\GrupoPrueba2\\obj\\",
+        "projectPath": "F:\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "F:\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\GrupoPrueba2\\GrupoPrueba2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
