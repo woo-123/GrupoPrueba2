@@ -865,3 +865,4 @@ D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.dll
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\ref\GrupoPrueba2.dll
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.pdb
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.genruntimeconfig.cache
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Pago\Create.cshtml.g.cs
