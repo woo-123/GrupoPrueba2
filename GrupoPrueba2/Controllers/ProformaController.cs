@@ -33,7 +33,14 @@ namespace GrupoPrueba2.Controllers
                 Include(p => p.Producto).
                 Where(s => s.UserID.Equals(userID));
 
-            return View(await items.ToListAsync());
+            var elements = await items.ToListAsync();
+            var total = elements.Sum(c => c.Quantity * c.Price );
+            
+            dynamic model = new ExpandoObject();
+            model.montoTotal = total;
+            model.proformas = elements;
+
+            return View(model);
         }
 
         // GET: Proforma/Delete/5
