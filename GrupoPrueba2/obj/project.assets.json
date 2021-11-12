@@ -7554,19 +7554,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Renato\\.nuget\\packages\\": {}
+    "C:\\Users\\diego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRA I\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\Desktop\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj",
       "projectName": "GrupoPrueba2",
-      "projectPath": "D:\\PROGRA I\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj",
-      "packagesPath": "C:\\Users\\Renato\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRA I\\GrupoPrueba2\\GrupoPrueba2\\obj\\",
+      "projectPath": "C:\\Users\\diego\\Desktop\\GrupoPrueba2\\GrupoPrueba2\\GrupoPrueba2.csproj",
+      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\diego\\Desktop\\GrupoPrueba2\\GrupoPrueba2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Renato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7637,7 +7637,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
