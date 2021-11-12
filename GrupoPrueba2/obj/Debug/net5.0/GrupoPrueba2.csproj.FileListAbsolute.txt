@@ -325,7 +325,6 @@ F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPr
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Catalogo\SSD.cshtml.g.cs
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Catalogo\Tarjeta.cshtml.g.cs
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -515,6 +514,7 @@ C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.c
 C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.genruntimeconfig.cache
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Proforma\Edit.cshtml.g.cs
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Proforma\Index.cshtml.g.cs
+<<<<<<< HEAD
 D:\Onedrive USMP\OneDrive - Universidad de San Martin de Porres\Universidad\2021-2\PROGRAMACIÓN 1\Repositorios\GrupoPrueba2-1\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.csproj.AssemblyReference.cache
 D:\Onedrive USMP\OneDrive - Universidad de San Martin de Porres\Universidad\2021-2\PROGRAMACIÓN 1\Repositorios\GrupoPrueba2-1\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.GeneratedMSBuildEditorConfig.editorconfig
 D:\Onedrive USMP\OneDrive - Universidad de San Martin de Porres\Universidad\2021-2\PROGRAMACIÓN 1\Repositorios\GrupoPrueba2-1\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.AssemblyInfoInputs.cache
@@ -874,3 +874,9 @@ C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Id
 C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\diego\Desktop\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+=======
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\Create.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\Edit.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\index.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
+>>>>>>> 855598a0a370a62dd1697049965b2c1c9590f7ef
