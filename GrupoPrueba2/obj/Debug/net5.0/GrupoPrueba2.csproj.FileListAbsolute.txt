@@ -880,3 +880,11 @@ F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPr
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\index.cshtml.g.cs
 F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
 >>>>>>> 855598a0a370a62dd1697049965b2c1c9590f7ef
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contacto\Create.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contacto\Index.cshtml.g.cs
+F:\usmp\sexto ciclo\Progra I\Lab\Clases\usmp\programacion 1\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Pago\Create.cshtml.g.cs

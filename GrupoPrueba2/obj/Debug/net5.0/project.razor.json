@@ -15734,11 +15734,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "f:\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\GrupoPrueba2\\GrupoPrueba2\\Views\\Catalogo\\Index.cshtml",
       "TargetPath": "Views\\Catalogo\\Index.cshtml",
       "FileKind": "mvc"
