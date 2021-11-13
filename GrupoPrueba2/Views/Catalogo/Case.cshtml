@@ -4,10 +4,11 @@
     ViewData["Title"] = "Case";  
 }
 <h1 class='h1-catalogo'>@ViewData["Title"]</h1>
-  <div>
+   <div class='banner'></div>
+    <div class='banner2'></div>
     <h1>@ViewData["Message"]</h1>
     
-      <div id="products" class="catalogo-container">
+    <div id="products" class="catalogo-container">
             @foreach (var item in Model) {
               if(item.Id >= 25 && item.Id < 29){
             <div class="catalogo-body">
@@ -24,6 +25,6 @@
                 </div>
               }
             }
-       </div>
+       
      
   </div>

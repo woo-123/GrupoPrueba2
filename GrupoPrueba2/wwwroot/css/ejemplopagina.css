@@ -82,8 +82,9 @@ header{
     transform: translateX(-10px);
 }
 .nav-ul-sub li {
-    padding-top: 10px;
-    width: 100%;  
+    padding: 10px 10px 5px 10px ;
+    width: 100%; 
+    border-bottom: 1px solid rgba(255,255,255,.2); 
 }
 .nav-ul-sub li a {
     padding-right: 10px;
@@ -462,10 +463,12 @@ main{
     text-align:center;
     font-size: 3em;
     margin:10px 0;
+    width:70%;
+    margin:0 auto;
     color:#E7C126;
 }
 .catalogo-container{
-    width:80%;
+    width:70%;
     margin:30px auto;
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -528,3 +531,53 @@ main{
     background-color:#0088a9;
     transform: scale(1.1);
 }
+/*banner*/
+
+.banner{
+    cursor: pointer;
+    left:15px;
+    border:1px solid #E7C126;
+    position:absolute;
+    width:130px;
+    height: 800px;
+    background:url(/images/banner1.jpg) no-repeat;
+    background-size: 100% 100%;
+    filter:contrast(85%) ;
+    animation:banner 10s infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier( 1, 0.55, 1, 0.53 ) ;
+    
+}
+.banner2{
+    cursor: pointer;    
+    border:1px solid #E7C126;
+    position:absolute;
+    width:130px;
+    height: 800px;
+    background:url(/images/banner2.jpg);
+    background-size: 100% 100%;
+    left:89%;
+    filter:contrast(85%);
+    animation:banner2 10s infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier( 1, 0.38, 1, 0.51 ) ;
+}
+@keyframes banner{
+    0%,50%{
+        background:url(/images/banner1.jpg) ;
+    }
+    50%,100%{
+        background-size: 100% 100%;
+        background:url(/images/banner3.jpg) ;
+    }
+}
+@keyframes banner2{
+    0%,50%{
+        background:url(/images/banner2.jpg) ;
+    }
+    50%,100%{
+        background-size: 100% 100%;
+        background:url(/images/banner4.jpg) ;
+    }
+}
+
