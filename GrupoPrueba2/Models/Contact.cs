@@ -27,5 +27,6 @@ namespace GrupoPrueba2.Models
         [Column("comment")]
         public string Comment { get; set; }
 
+
     }
 }

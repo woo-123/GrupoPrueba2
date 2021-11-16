@@ -12,13 +12,13 @@ using System.Text.Json;
 using System.Text;
 
 namespace GrupoPrueba2.Controllers
-{
+{   
     public class ContactoController:Controller
     {
         private readonly ApplicationDbContext _context;
         private const string URL_API_SPOTIFY = "https://api.sendgrid.com/v3/mail/send";
-        private string ACCESS_TOKEN ="";
-
+        
+        private string apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
 
         public ContactoController(ApplicationDbContext context)
         {
@@ -43,9 +43,9 @@ namespace GrupoPrueba2.Controllers
             _context.SaveChanges();
             ViewData["Message"] = "El contacto ya esta registrado";
             // ENVIO DE CORREO
-            ACCESS_TOKEN = System.Environment.GetEnvironmentVariables()["SENDGRID_API_KEY"].ToString();
-
-            Console.WriteLine( " token :" + ACCESS_TOKEN);
+            
+            
+            Console.WriteLine( " token :" + apiKey);
 
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Accept.Clear();
@@ -53,7 +53,7 @@ namespace GrupoPrueba2.Controllers
                 new MediaTypeWithQualityHeaderValue("application/json"));
             httpClient.BaseAddress = new Uri(URL_API_SPOTIFY);
              httpClient.DefaultRequestHeaders.Authorization = 
-                new AuthenticationHeaderValue("Bearer", ACCESS_TOKEN);
+                new AuthenticationHeaderValue("Bearer", apiKey);
   
             var jsonObject = new StringBuilder();
             jsonObject.Append("{");
@@ -61,8 +61,8 @@ namespace GrupoPrueba2.Controllers
             jsonObject.Append("\"demo\" ");
             jsonObject.Append("],");
             jsonObject.Append("\"from\": {");
-            jsonObject.Append("\"email\": \"fduartej@usmp.pe\","); 
-            jsonObject.Append("\"name\": \"Frederick \"");
+            jsonObject.Append("\"email\": \"renato_cortez@usmp.pe\","); 
+            jsonObject.Append("\"name\": \"Orange Store \"");
             jsonObject.Append("},");
             jsonObject.Append("\"personalizations\": [");
             jsonObject.Append("{");
