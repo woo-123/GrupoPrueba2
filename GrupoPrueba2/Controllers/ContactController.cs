@@ -3,7 +3,7 @@ using GrupoPrueba2.Models;
 using GrupoPrueba2.Data;
 using System.Linq;
 
-namespace frutosecoapp.Controllers
+namespace GrupoPrueba2.Controllers
 {
     public class ContactController:Controller
     {

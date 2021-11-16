@@ -43,7 +43,7 @@ namespace GrupoPrueba2.Controllers
             _context.SaveChanges();
             ViewData["Message"] = "El contacto ya esta registrado";
             // ENVIO DE CORREO
-            ACCESS_TOKEN = System.Environment.GetEnvironmentVariables()["SENDGRID_KEY"].ToString();
+            ACCESS_TOKEN = System.Environment.GetEnvironmentVariables()["SENDGRID_API_KEY"].ToString();
 
             Console.WriteLine( " token :" + ACCESS_TOKEN);
 
