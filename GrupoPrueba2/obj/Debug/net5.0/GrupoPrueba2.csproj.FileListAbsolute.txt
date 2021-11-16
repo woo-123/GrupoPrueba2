@@ -848,7 +848,6 @@ D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Catalogo\Tarj
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contacto\Create.cshtml.g.cs
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contacto\Index.cshtml.g.cs
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Proforma\Edit.cshtml.g.cs
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Proforma\Index.cshtml.g.cs
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -1256,3 +1255,12 @@ D:\Onedrive USMP\OneDrive - Universidad de San Martin de Porres\Universidad\2021
 D:\Onedrive USMP\OneDrive - Universidad de San Martin de Porres\Universidad\2021-2\PROGRAMACIÓN 1\Repositorios\GrupoPrueba2-6\GrupoPrueba2\obj\Debug\net5.0\ref\GrupoPrueba2.dll
 D:\Onedrive USMP\OneDrive - Universidad de San Martin de Porres\Universidad\2021-2\PROGRAMACIÓN 1\Repositorios\GrupoPrueba2-6\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.pdb
 D:\Onedrive USMP\OneDrive - Universidad de San Martin de Porres\Universidad\2021-2\PROGRAMACIÓN 1\Repositorios\GrupoPrueba2-6\GrupoPrueba2\obj\Debug\net5.0\GrupoPrueba2.genruntimeconfig.cache
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\Create.cshtml.g.cs
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\Edit.cshtml.g.cs
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\index.cshtml.g.cs
+D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
