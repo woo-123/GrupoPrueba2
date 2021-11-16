@@ -17,7 +17,7 @@ Content-Type: application/json
 }
 
 POST https://api.sendgrid.com/v3/mail/send HTTP/1.0
-Authorization: Bearer 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
+Authorization: Bearer 
 Content-Type: application/json
 
 {
