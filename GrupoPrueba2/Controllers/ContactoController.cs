@@ -17,7 +17,7 @@ namespace GrupoPrueba2.Controllers
     {
         private readonly ApplicationDbContext _context;
         private const string URL_API_SPOTIFY = "https://api.sendgrid.com/v3/mail/send";
-        private string ACCESS_TOKEN ="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";
+        private string ACCESS_TOKEN ="";
 
 
         public ContactoController(ApplicationDbContext context)
@@ -43,7 +43,7 @@ namespace GrupoPrueba2.Controllers
             _context.SaveChanges();
             ViewData["Message"] = "El contacto ya esta registrado";
             // ENVIO DE CORREO
-            
+            ACCESS_TOKEN = System.Environment.GetEnvironmentVariables()["SENDGRID_KEY"].ToString();
 
             Console.WriteLine( " token :" + ACCESS_TOKEN);
 
@@ -61,8 +61,8 @@ namespace GrupoPrueba2.Controllers
             jsonObject.Append("\"demo\" ");
             jsonObject.Append("],");
             jsonObject.Append("\"from\": {");
-            jsonObject.Append("\"email\": \"renato_cortez@usmp.pe\","); 
-            jsonObject.Append("\"name\": \"Orange Store \"");
+            jsonObject.Append("\"email\": \"fduartej@usmp.pe\","); 
+            jsonObject.Append("\"name\": \"Frederick \"");
             jsonObject.Append("},");
             jsonObject.Append("\"personalizations\": [");
             jsonObject.Append("{");
@@ -78,7 +78,7 @@ namespace GrupoPrueba2.Controllers
             jsonObject.Append("\"content\": [");
             jsonObject.Append("{");
             jsonObject.Append("\"type\": \"text/plain\",");
-            jsonObject.Append("\"value\": \"Hola , su comentario fue recibido\" ");
+            jsonObject.Append("\"value\": \"Su comentario ha sido enviado con éxito\" ");
             jsonObject.Append("}");
             jsonObject.Append("],  ");
             jsonObject.Append("}");
