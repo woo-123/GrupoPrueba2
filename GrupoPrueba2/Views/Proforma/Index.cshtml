@@ -8,12 +8,6 @@
     Decimal montoTotal = @Model.montoTotal;
 
 }
-
-<h1>@ViewData["Title"]</h1>
-
-<a class="btn btn-primary" asp-controller="Pago" 
-        asp-action="Create" asp-route-monto="@montoTotal">Pagar</a><p>Total S/. @montoTotal</p>
-
 <table class="table">
     <thead>
         <tr>
@@ -48,5 +42,12 @@
         </tr>
 }
     </tbody>
+
 </table>
+<div class='montoTotal'>
+        
+<p>Total S/. @montoTotal</p>
+<a class="total" asp-controller="Pago" 
+        asp-action="Create" asp-route-monto="@montoTotal">Pagar</a>
+</div>
 

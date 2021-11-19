@@ -3,7 +3,7 @@
     ViewData["Title"] = "Pago";
 }
 
-<h1>@ViewData["Title"]</h1>
+
 
 <div class="container">
 
@@ -43,21 +43,17 @@
                   <input asp-for="Cvv" class="form-control" data-inputmask="'mask': '999', 'placeholder': '999'" />
                 </div>
               </div>
-              <div class="form-group row">
-                <div class="col-sm-2">
-                  <label asp-for="MontoTotal" class="control-label"></label>
-                </div>
-                <div class="col-sm-2">
+                <div class='total'>
+                <div >
                   <input asp-for="MontoTotal" class="form-control" data-thousands="," data-decimal="." />
                 </div>
-              </div>  
-              <div class="form-group row">
-                <div class="col-sm-2"></div>
+               
                 <div class="col-sm-2">
                   <button type="submit" class="btn btn-primary">Pagar</button> 
                 </div>
               </div>
             </form>
+            
             <h1>@ViewData["Message"]</h1>
           </div>
         </div>

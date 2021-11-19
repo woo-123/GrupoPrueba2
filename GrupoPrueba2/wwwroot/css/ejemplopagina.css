@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
 
+html{
+    width: 100%;
+    height: 100vh;
+}
 *{
      box-sizing:border-box;
      padding:0;
@@ -19,7 +23,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px 10%;
+    padding:10px 5%;
     
 }
 .logo{
@@ -31,7 +35,6 @@ header{
     opacity: .7;
     border-radius: 15px;
     transition: all .5s;
-    margin-left:auto;
     z-index:101;
 }
 .logo:hover{
@@ -40,7 +43,7 @@ header{
 }
 .nav{
     display:flex;
-    flex:5;
+    flex:8;
     justify-content: flex-end;
     z-index:15;
 }
@@ -380,6 +383,11 @@ main{
     }
 }
 /*Footer*/
+footer{
+    position:sticky;
+    top:97%;
+    
+}
 .redes{
     margin-left: 10px;
     font-size:1.5em;
@@ -389,7 +397,7 @@ main{
 }
 .footer-contenedor{
     text-align:right;
-    margin-right: 5%;
+    margin-right: 20px;
 }
 
 /*Register*/
@@ -581,3 +589,84 @@ main{
     }
 }
 
+.table{
+    width: 70%;
+    margin:50px auto 15px ;
+    color:white;
+    border: 1px solid #E7C126;
+    padding: 20px;
+    height:400px;
+    overflow: auto;
+}
+.table thead{
+    width: 100%;
+    margin:5px 0 ;  
+}
+.table thead th{
+    padding: 10px 0;
+    margin-right: 5px;
+}
+.table tbody{
+    margin-top:20px;
+    text-align: center;
+}
+.table tbody td{
+    padding: 10px 10px;
+    border: 1px solid #0088a9;
+}
+
+.contacto_container{
+    color:#E7C126;
+    text-align:center;
+    width:70%;
+    margin:0 auto;
+    height:500px;
+}
+.form{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-evenly;
+}
+.contacto_opcion{
+    margin-top:20px;
+    padding:20px
+}
+.contacto_opcion input{
+    padding:10px 5px;
+    outline:none;
+}
+.contacto_opcion input::selection{
+    border: 1px solid  #E7C126;
+
+}
+.btn-contacto button{
+    padding:10px;
+    background-color: #0088a9;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all .3s;
+}
+.btn-contacto button:hover{
+    background-color:#E7C126;
+}
+.montoTotal{
+    margin-top:5px;
+    position: relative;
+    left:68%;
+    display:flex;
+    width:13%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.montoTotal p {
+    color:#E7C126;
+}
+.createnew{
+    display:inline-block;
+    position:relative;
+    margin:20px 0px 10px 30px;
+    width:20%;
+}
