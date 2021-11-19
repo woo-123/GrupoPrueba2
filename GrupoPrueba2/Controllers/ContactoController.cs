@@ -12,13 +12,13 @@ using System.Text.Json;
 using System.Text;
 
 namespace GrupoPrueba2.Controllers
-{   
+{
     public class ContactoController:Controller
     {
         private readonly ApplicationDbContext _context;
         private const string URL_API_SPOTIFY = "https://api.sendgrid.com/v3/mail/send";
-        
-        private string apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
+        private string ACCESS_TOKEN ="";
+
 
         public ContactoController(ApplicationDbContext context)
         {
@@ -43,9 +43,9 @@ namespace GrupoPrueba2.Controllers
             _context.SaveChanges();
             ViewData["Message"] = "El contacto ya esta registrado";
             // ENVIO DE CORREO
-            
-            
-            Console.WriteLine( " token :" + apiKey);
+            ACCESS_TOKEN = System.Environment.GetEnvironmentVariables()["SENDGRID_KEY"].ToString();
+
+            Console.WriteLine( " token :" + ACCESS_TOKEN);
 
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Accept.Clear();
@@ -53,7 +53,7 @@ namespace GrupoPrueba2.Controllers
                 new MediaTypeWithQualityHeaderValue("application/json"));
             httpClient.BaseAddress = new Uri(URL_API_SPOTIFY);
              httpClient.DefaultRequestHeaders.Authorization = 
-                new AuthenticationHeaderValue("Bearer", apiKey);
+                new AuthenticationHeaderValue("Bearer", ACCESS_TOKEN);
   
             var jsonObject = new StringBuilder();
             jsonObject.Append("{");
@@ -78,7 +78,7 @@ namespace GrupoPrueba2.Controllers
             jsonObject.Append("\"content\": [");
             jsonObject.Append("{");
             jsonObject.Append("\"type\": \"text/plain\",");
-            jsonObject.Append("\"value\": \"Su comentario ha sido enviado con éxito\" ");
+            jsonObject.Append("\"value\": \"Gracias por registrar sus datos , nos contactaremos en breve con usted.\" ");
             jsonObject.Append("}");
             jsonObject.Append("],  ");
             jsonObject.Append("}");
