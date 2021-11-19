@@ -671,3 +671,21 @@ footer{
     margin:20px 0px 10px 30px;
     width:20%;
 }
+.total{
+    text-align:center;
+}
+.monto{
+    margin: 10px 0 ;
+    padding: 10px;
+    font-size:1.2em;
+}
+.btn-pagar{
+    width:70%;
+    height:25px;
+    background:#E7C126;
+    cursor:pointer;
+   transition:all .3s;
+}
+.btn-pagar:hover{
+    background:#0088a9
+}
