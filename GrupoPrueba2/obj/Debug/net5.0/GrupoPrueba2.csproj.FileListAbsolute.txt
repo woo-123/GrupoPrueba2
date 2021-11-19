@@ -1264,3 +1264,8 @@ D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\Creat
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\Edit.cshtml.g.cs
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Contact\index.cshtml.g.cs
 D:\PROGRA I\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
+C:\Users\diego\Downloads\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\diego\Downloads\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\diego\Downloads\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\diego\Downloads\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\diego\Downloads\GrupoPrueba2\GrupoPrueba2\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs

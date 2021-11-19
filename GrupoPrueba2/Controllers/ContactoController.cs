@@ -61,7 +61,7 @@ namespace GrupoPrueba2.Controllers
             jsonObject.Append("\"demo\" ");
             jsonObject.Append("],");
             jsonObject.Append("\"from\": {");
-            jsonObject.Append("\"email\": \"renato_cortez@usmp.pe\","); 
+            jsonObject.Append("\"email\": \"diego-al-18@hotmail.com\","); 
             jsonObject.Append("\"name\": \"Orange Store \"");
             jsonObject.Append("},");
             jsonObject.Append("\"personalizations\": [");
