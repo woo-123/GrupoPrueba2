@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrupoPrueba2")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d7890184ac091642777ad46bac7998cb317d8c9")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrupoPrueba2.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
